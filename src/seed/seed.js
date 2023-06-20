@@ -1,4 +1,4 @@
-const DUMMY_TODOS = [
+const SEED_TODOS = [
   {
     id: "1",
     title: "Learn CSS",
@@ -40,10 +40,10 @@ const DUMMY_TODOS = [
     date: new Date(2023, 3, 11),
   },
   {
-    id: "8",
+    id: "9",
     title: "Christmas decorations",
     date: new Date(2023, 11, 1),
   },
 ];
 
-export default DUMMY_TODOS;
+export default SEED_TODOS;
