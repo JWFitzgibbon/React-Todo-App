@@ -1,0 +1,9 @@
+.todos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todos-list__fallback {
+  color: #183153;
+  text-align: center;
+}

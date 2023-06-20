@@ -1,0 +1,54 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #183153;
+}
+
+.todo-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+  text-align: center;
+}
+
+.todo-item h2 {
+  color: white;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.todo-item__options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.todo-item__options Button {
+  padding: 0.5rem 0.5rem;
+}
+
+@media (min-width: 580px) {
+  .todo-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .todo-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .todo-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}

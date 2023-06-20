@@ -1,0 +1,38 @@
+.new-todo {
+  display: flex;
+  justify-content: center;
+  background-color: #146EBE;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-todo__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: white;
+}
+
+.new-todo__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-todo__control input {
+  font: inherit;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 22px;
+  border: 5px solid #74C0FC;
+  width: 20rem;
+  max-width: 100%;
+}
