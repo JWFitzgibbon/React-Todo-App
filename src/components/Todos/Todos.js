@@ -13,7 +13,7 @@ function Todos(props) {
 
   const dateFilteredTodos = props.items.filter((todo) => {
     return todo.date.getFullYear().toString() === year;
-  }).sort();
+  });
 
   return (
     <div>
