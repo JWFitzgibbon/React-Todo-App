@@ -19,7 +19,7 @@ function NewTodo(props) {
     event.preventDefault();
 
     const todoContent = {
-      id: Math.random(),
+      id: Math.random().toString(),
       title: enteredTitle,
       date: new Date(enteredDate),
     };
