@@ -3,6 +3,7 @@ import Card from "../UI/Card";
 import YearFilter from "./YearFilter";
 import { useState } from "react";
 import TodoList from "./TodoList";
+import Wrapper from "../Helpers/Wrapper";
 
 function Todos(props) {
   const [year, setYear] = useState("2022");
@@ -16,7 +17,7 @@ function Todos(props) {
   });
 
   return (
-    <div>
+    <Wrapper>
       <Card className="todos">
         <YearFilter
           selected={dateFilteredTodos}
@@ -24,7 +25,7 @@ function Todos(props) {
         />
         <TodoList items={dateFilteredTodos} />
       </Card>
-    </div>
+    </Wrapper>
   );
 }
 
